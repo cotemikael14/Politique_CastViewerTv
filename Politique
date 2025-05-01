@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Politique de confidentialité – CastViewerTv</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <h1>Politique de confidentialité de CastViewerTv</h1>
+  <p><strong>Développée par :</strong> MXMK</p>
+  <p><strong>Dernière mise à jour :</strong> 01/05/2025</p>
+
+  <h2>1. Données collectées</h2>
+  <p>CastViewerTv ne collecte aucune donnée personnelle identifiable (comme le nom, l'adresse e-mail ou la localisation). L'application peut collecter l'adresse IP locale de l'appareil uniquement dans le but de permettre la communication réseau locale, essentielle à son fonctionnement.</p>
+
+  <h2>2. Utilisation des données</h2>
+  <p>Les données collectées sont utilisées uniquement localement sur votre appareil, pour permettre le bon fonctionnement de l'application. Aucune donnée n’est transmise à des serveurs externes ni utilisée à des fins publicitaires ciblées par l’application elle-même.</p>
+
+  <h2>3. Services tiers</h2>
+  <p>CastViewerTv utilise Google Ads pour afficher des publicités. Ces services peuvent collecter certaines informations techniques conformément à leur propre politique de confidentialité. <br/>
+  Consultez la politique de confidentialité de Google : 
+  <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+  <h2>4. Stockage et sécurité</h2>
+  <p>Toutes les données utilisées sont traitées localement sur l’appareil. Aucune donnée personnelle n’est stockée ou sauvegardée par l'application.</p>
+
+  <h2>5. Enfants</h2>
+  <p>L’application n’est pas spécifiquement destinée aux enfants de moins de 13 ans. Aucune information personnelle n’est collectée sciemment auprès d’enfants.</p>
+
+  <h2>6. Contact</h2>
+  <p>Pour toute question ou préoccupation relative à la confidentialité, vous pouvez contacter le développeur à :<br/>
+  <a href="mailto:MXMKinfo@gmail.com">MXMKinfo@gmail.com</a></p>
+</body>
+</html>
