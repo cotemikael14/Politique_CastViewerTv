@@ -1,156 +1,427 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Politique de confidentialité – CastViewerTv</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for CastSender - Screen sharing app for Meta Quest">
+    <title>CastSender - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            margin-top: -2rem;
+            position: relative;
+        }
+
+        .last-updated {
+            background: #e8f4fd;
+            border-left: 4px solid #2196F3;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+
+        .last-updated strong {
+            color: #1976D2;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: #444;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+            border: 1px solid #ffeeba;
+        }
+
+        .contact-section {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .contact-section h2 {
+            margin-top: 0;
+            border-bottom: none;
+            color: #667eea;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.5rem;
+        }
+
+        .permission-box {
+            background: #e7f3ff;
+            border: 1px solid #b3d9ff;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+
+        .permission-box h4 {
+            color: #0066cc;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            background: #f8f9fa;
+            margin-top: 3rem;
+        }
+
+        .toc {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .toc li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .toc a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                margin-top: 0;
+                border-radius: 0;
+                padding: 1.5rem 1rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background: #667eea;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+        }
+
+        .security-note {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+
+        .security-note h4 {
+            color: #155724;
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
 <body>
-  # Privacy Policy for CastSender
+    <header class="header">
+        <h1>CastSender Privacy Policy</h1>
+        <p>Your privacy is our priority</p>
+    </header>
 
-**Last Updated: May 22, 2025**
+    <div class="container">
+        <div class="last-updated">
+            <strong>Last Updated:</strong> May 22, 2025
+        </div>
 
-## Introduction
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#introduction">1. Introduction</a></li>
+                <li><a href="#information-we-collect">2. Information We Collect</a></li>
+                <li><a href="#how-we-use">3. How We Use Your Information</a></li>
+                <li><a href="#data-storage">4. Data Storage and Security</a></li>
+                <li><a href="#data-sharing">5. Data Sharing and Disclosure</a></li>
+                <li><a href="#your-rights">6. Your Rights and Choices</a></li>
+                <li><a href="#contact">7. Contact Us</a></li>
+            </ul>
+        </div>
 
-Welcome to CastSender ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our CastSender application on Meta Quest devices ("App"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.
+        <h2 id="introduction">Introduction</h2>
+        <p>
+            Welcome to CastSender ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our CastSender application on Meta Quest devices ("App"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.
+        </p>
 
-## Information We Collect
+        <div class="security-note">
+            <h4>🔒 Privacy First Approach</h4>
+            <p>CastSender is designed with privacy in mind. We collect minimal data and keep everything local on your device.</p>
+        </div>
 
-### Information You Provide Directly
+        <h2 id="information-we-collect">Information We Collect</h2>
 
-When using CastSender, you may provide:
-- **Network Configuration**: IP addresses and port numbers for establishing connections
-- **Quality Settings**: Your preferred streaming quality preferences
-- **QR Code Data**: Information scanned through QR codes for quick connection setup
+        <h3>Information You Provide Directly</h3>
+        <p>When using CastSender, you may provide:</p>
+        <ul>
+            <li><strong>Network Configuration:</strong> IP addresses and port numbers for establishing connections</li>
+            <li><strong>Quality Settings:</strong> Your preferred streaming quality preferences</li>
+            <li><strong>QR Code Data:</strong> Information scanned through QR codes for quick connection setup</li>
+        </ul>
 
-### Information Collected Automatically
+        <h3>Information Collected Automatically</h3>
+        <p>When you use our App, we automatically collect:</p>
+        <ul>
+            <li><strong>Device Information:</strong> Meta Quest device model, operating system version, and unique device identifiers</li>
+            <li><strong>Usage Data:</strong> Features used, session duration, and error logs</li>
+            <li><strong>Network Information:</strong> Local IP address and network status (WiFi connectivity)</li>
+            <li><strong>Performance Metrics:</strong> Frame rates, bitrate, and connection quality statistics</li>
+        </ul>
 
-When you use our App, we automatically collect:
-- **Device Information**: Meta Quest device model, operating system version, and unique device identifiers
-- **Usage Data**: Features used, session duration, and error logs
-- **Network Information**: Local IP address and network status (WiFi connectivity)
-- **Performance Metrics**: Frame rates, bitrate, and connection quality statistics
+        <h3>Permissions We Request</h3>
+        <p>CastSender requests the following permissions:</p>
 
-### Permissions We Request
+        <div class="permission-box">
+            <h4>📷 Camera Permission</h4>
+            <p>Used solely for QR code scanning to simplify connection setup. We do not record or store any camera footage.</p>
+        </div>
 
-CastSender requests the following permissions:
-- **Camera**: Used solely for QR code scanning to simplify connection setup
-- **Network Access**: Required for WebRTC streaming functionality
-- **Foreground Service**: Maintains screen capture session while streaming
-- **Notification**: Displays streaming status and allows quick access to controls
+        <div class="permission-box">
+            <h4>🌐 Network Access</h4>
+            <p>Required for WebRTC streaming functionality and establishing peer-to-peer connections.</p>
+        </div>
 
-## How We Use Your Information
+        <div class="permission-box">
+            <h4>📱 Foreground Service</h4>
+            <p>Maintains screen capture session while streaming to ensure uninterrupted service.</p>
+        </div>
 
-We use the collected information for:
-- **Service Delivery**: Establishing and maintaining peer-to-peer connections for screen sharing
-- **Quality Optimization**: Adjusting streaming quality based on network conditions
-- **Technical Support**: Diagnosing and resolving technical issues
-- **App Improvement**: Understanding usage patterns to enhance features
+        <div class="permission-box">
+            <h4>🔔 Notification Permission</h4>
+            <p>Displays streaming status and allows quick access to controls while streaming.</p>
+        </div>
 
-## Data Storage and Security
+        <h2 id="how-we-use">How We Use Your Information</h2>
+        <p>We use the collected information for:</p>
+        <ul>
+            <li><strong>Service Delivery:</strong> Establishing and maintaining peer-to-peer connections for screen sharing</li>
+            <li><strong>Quality Optimization:</strong> Adjusting streaming quality based on network conditions</li>
+            <li><strong>Technical Support:</strong> Diagnosing and resolving technical issues</li>
+            <li><strong>App Improvement:</strong> Understanding usage patterns to enhance features</li>
+        </ul>
 
-### Local Storage Only
-- All configuration data is stored locally on your Meta Quest device
-- No user data is transmitted to our servers
-- Connection data is used only for establishing peer-to-peer connections
+        <h2 id="data-storage">Data Storage and Security</h2>
 
-### Peer-to-Peer Communication
-- Screen sharing occurs directly between devices using WebRTC
-- No video content passes through our servers
-- Connection metadata (IP addresses) is used only for session establishment
+        <h3>Local Storage Only</h3>
+        <div class="highlight">
+            <p><strong>Important:</strong> All configuration data is stored locally on your Meta Quest device. No user data is transmitted to our servers.</p>
+        </div>
+        <ul>
+            <li>Connection data is used only for establishing peer-to-peer connections</li>
+            <li>All settings remain on your device</li>
+            <li>No cloud backup or sync features that would upload your data</li>
+        </ul>
 
-### Security Measures
-- All data transmissions use industry-standard encryption protocols
-- No passwords or sensitive personal information is collected
-- Local data can be cleared by uninstalling the app
+        <h3>Peer-to-Peer Communication</h3>
+        <ul>
+            <li>Screen sharing occurs directly between devices using WebRTC</li>
+            <li>No video content passes through our servers</li>
+            <li>Connection metadata (IP addresses) is used only for session establishment</li>
+        </ul>
 
-## Data Sharing and Disclosure
+        <h3>Security Measures</h3>
+        <ul>
+            <li>All data transmissions use industry-standard encryption protocols</li>
+            <li>No passwords or sensitive personal information is collected</li>
+            <li>Local data can be cleared by uninstalling the app</li>
+        </ul>
 
-We do not:
-- Sell, trade, or rent your personal information to third parties
-- Store your streaming content or connection history
-- Share your data with advertisers or marketing companies
+        <h2 id="data-sharing">Data Sharing and Disclosure</h2>
+        <p><strong>We do not:</strong></p>
+        <ul>
+            <li>Sell, trade, or rent your personal information to third parties</li>
+            <li>Store your streaming content or connection history</li>
+            <li>Share your data with advertisers or marketing companies</li>
+        </ul>
 
-We may disclose information only if:
-- Required by law or legal process
-- Necessary to protect our rights or safety
-- You provide explicit consent
+        <p><strong>We may disclose information only if:</strong></p>
+        <ul>
+            <li>Required by law or legal process</li>
+            <li>Necessary to protect our rights or safety</li>
+            <li>You provide explicit consent</li>
+        </ul>
 
-## Children's Privacy
+        <h2>Children's Privacy</h2>
+        <p>
+            CastSender is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided us with personal information, we will delete such information from our systems.
+        </p>
 
-CastSender is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided us with personal information, we will delete such information from our systems.
+        <h2>Third-Party Services</h2>
+        <p>CastSender uses the following third-party services:</p>
+        <ul>
+            <li><strong>WebRTC:</strong> For peer-to-peer video streaming (no data collected by third parties)</li>
+            <li><strong>Google STUN Servers:</strong> For NAT traversal (no personal data transmitted)</li>
+        </ul>
 
-## Third-Party Services
+        <h2 id="your-rights">Your Rights and Choices</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access:</strong> View the data stored locally on your device through app settings</li>
+            <li><strong>Delete:</strong> Remove all app data by uninstalling CastSender</li>
+            <li><strong>Opt-out:</strong> Disable specific permissions through Meta Quest system settings</li>
+            <li><strong>Control:</strong> Choose which devices to connect to and when to share your screen</li>
+        </ul>
 
-CastSender uses the following third-party services:
-- **WebRTC**: For peer-to-peer video streaming (no data collected by third parties)
-- **Google STUN Servers**: For NAT traversal (no personal data transmitted)
+        <h2>Data Retention</h2>
+        <ul>
+            <li>Configuration settings are retained until you modify or delete them</li>
+            <li>No streaming content is recorded or retained</li>
+            <li>Error logs are kept locally for 7 days to assist with troubleshooting</li>
+            <li>All data is permanently deleted upon app uninstallation</li>
+        </ul>
 
-## Your Rights and Choices
+        <h2>International Users</h2>
+        <p>
+            CastSender is designed to work globally. By using our App, you consent to the processing of your information as described in this Privacy Policy, regardless of your country of residence.
+        </p>
 
-You have the right to:
-- **Access**: View the data stored locally on your device through app settings
-- **Delete**: Remove all app data by uninstalling CastSender
-- **Opt-out**: Disable specific permissions through Meta Quest system settings
-- **Control**: Choose which devices to connect to and when to share your screen
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by:</p>
+        <ul>
+            <li>Updating the "Last Updated" date at the top of this policy</li>
+            <li>Providing in-app notifications for significant changes</li>
+            <li>Requiring your acceptance of updated terms when necessary</li>
+        </ul>
 
-## Data Retention
+        <h2>Meta Quest Specific Provisions</h2>
+        
+        <h3>Oculus/Meta Platform</h3>
+        <ul>
+            <li>We comply with Meta's platform policies and guidelines</li>
+            <li>User data is not shared with Meta beyond standard platform analytics</li>
+            <li>We do not access Meta account information beyond device identification</li>
+        </ul>
 
-- Configuration settings are retained until you modify or delete them
-- No streaming content is recorded or retained
-- Error logs are kept locally for 7 days to assist with troubleshooting
-- All data is permanently deleted upon app uninstallation
+        <h3>VR-Specific Considerations</h3>
+        <ul>
+            <li>No motion or spatial tracking data is collected</li>
+            <li>Hand tracking data (if used) remains on-device</li>
+            <li>No biometric or health-related information is collected</li>
+        </ul>
 
-## International Users
+        <h2>Consent</h2>
+        <p>
+            By using CastSender, you consent to this Privacy Policy and agree to its terms. Your continued use of the App following any changes to this Privacy Policy will be deemed your acceptance of such changes.
+        </p>
 
-CastSender is designed to work globally. By using our App, you consent to the processing of your information as described in this Privacy Policy, regardless of your country of residence.
+        <div class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+            <div class="contact-info">
+                <p><strong>Email:</strong> privacy@castsender.com</p>
+                <p><strong>Developer:</strong> [Your Name/Company]</p>
+                <p><strong>Address:</strong> [Your Address]</p>
+            </div>
+        </div>
+    </div>
 
-## Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. We will notify you of any changes by:
-- Updating the "Last Updated" date at the top of this policy
-- Providing in-app notifications for significant changes
-- Requiring your acceptance of updated terms when necessary
-
-## Contact Us
-
-If you have questions or comments about this Privacy Policy, please contact us at:
-
-**Email**: mxmk@gmail.com  
-**Developer**: MXMK
-
-## Meta Quest Specific Provisions
-
-### Oculus/Meta Platform
-- We comply with Meta's platform policies and guidelines
-- User data is not shared with Meta beyond standard platform analytics
-- We do not access Meta account information beyond device identification
-
-### VR-Specific Considerations
-- No motion or spatial tracking data is collected
-- Hand tracking data (if used) remains on-device
-- No biometric or health-related information is collected
-
-## Consent
-
-By using CastSender, you consent to this Privacy Policy and agree to its terms. Your continued use of the App following any changes to this Privacy Policy will be deemed your acceptance of such changes.
-
----
-
-© 2025 CastSender. All rights reserved.
+    <footer class="footer">
+        <p>&copy; 2025 CastSender. All rights reserved.</p>
+        <p>
+            <span class="badge">Meta Quest</span>
+            <span class="badge">Privacy First</span>
+            <span class="badge">Local Storage Only</span>
+        </p>
+    </footer>
 </body>
 </html>
